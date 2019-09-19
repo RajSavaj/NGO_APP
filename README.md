@@ -1,5 +1,5 @@
 # Restaurent And Donator  Panel
-![NGO Screen](http://jaishreekrishna.me/Foss/public/assets/images/Foss.jpeg)
+![NGO Screen](http://jaishreekrishna.me/Raj/FoodArea.png)
   - First We Create New Account For Donating Food.
   - Register is successfully then go to login screen
   - Enter Correct Username and password then get the Restaurant Screen Add The Food Item
