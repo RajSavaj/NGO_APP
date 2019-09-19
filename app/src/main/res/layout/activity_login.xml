@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:paddingBottom="50dp"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Free Food"
+           android:textAlignment="center"
+           android:layout_marginBottom="20dp"
+           android:fontFamily="@font/fredokaone"
+           android:textColor="#333366"
+           android:textSize="50dp"/>
+       <EditText
+           android:id="@+id/txtemail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:hint="Email"
+           android:fontFamily="@font/sriracha"
+           app:backgroundTint="@color/colorPrimary"
+           android:padding="15dp"
+           />
+
+       <EditText
+           android:id="@+id/txtpass"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:hint="Password"
+           android:fontFamily="@font/sriracha"
+           app:backgroundTint="@color/colorPrimary"
+           android:inputType="textPassword"
+           android:padding="15dp" />
+       <Button
+           android:id="@+id/btnlogin"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Connect"
+           android:shadowColor="@android:color/transparent"
+           android:padding="15dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="20dp"
+           android:textSize="17dp"
+           android:textColor="@color/white"
+           android:background="@drawable/shapelogin"/>
+       <TextView
+           android:id="@+id/foodarea"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:layout_marginTop="12dp"
+           android:textStyle="bold"
+           android:fontFamily="@font/sriracha"
+           android:textSize="@dimen/textsize"
+           android:text="FoodArea Registration"/>
+       <TextView
+           android:id="@+id/ngoreg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:layout_marginTop="10dp"
+           android:textStyle="bold"
+           android:fontFamily="@font/sriracha"
+           android:textSize="@dimen/textsize"
+           android:text="Ngo Registration"/>
+   </LinearLayout>
+</RelativeLayout>
