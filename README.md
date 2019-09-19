@@ -6,7 +6,7 @@
   - We show the NGO requested food in Top Right Notification Icon 
   
  # NGO Panel
-![NGO Screen](http://jaishreekrishna.me/Foss/public/assets/images/Foss.jpeg)
+![NGO Screen](http://jaishreekrishna.me/Raj/FoodArea1.png)
   - First We Create New Account For NGO.
   - Register is successfully then go to login screen
   - Enter Correct Username and password then get the NGO Screen That Screen Display The Nearest NGO
